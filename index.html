@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn ou Interpol ?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>LinkedIn ou Interpol ?</h1>
+        <p>Score : <span id="score">0</span></p>
+
+        <div class="card">
+            <img id="profile-img" src="" alt="Photo du profil">
+            
+            <div id="buttons-container">
+                <button onclick="checkAnswer('linkedin')" class="btn linkedin-btn">LinkedIn</button>
+                <button onclick="checkAnswer('interpol')" class="btn interpol-btn">Interpol</button>
+            </div>
+
+            <div id="result-container" class="hidden">
+                <h2 id="result-title"></h2>
+                <p id="result-desc"></p>
+                <button onclick="nextProfile()" class="btn next-btn">Suivant</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
