@@ -1,7 +1,7 @@
 // 1. TA BASE DE DONNÉES (À modifier avec tes choix)
 const profiles = [
     {
-        image: "images/profil1.jpg", 
+        image: "images/image1.jpg", 
         type: "linkedin", 
         name: "Jean Dupont",
         description: "A mené une équipe de 50 développeurs pour créer une IA révolutionnaire. Chiffre d'affaires généré : 2 millions d'euros."
